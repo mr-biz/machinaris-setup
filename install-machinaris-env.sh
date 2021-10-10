@@ -31,7 +31,7 @@ sudo usermod -aG docker $USER
 # Prepare folder for machinaris docker compose 
 mkdir ~/machinaris
 cd ~/machinaris
-echo "#Copy and Paste the docker compose data from https://www.machinaris.app/ here.">>docker-compose.yml
+echo "#Copy and Paste the docker compose data from https://www.machinaris.app/ here. When done press CTRL X & press enter">>docker-compose.yml
 nano docker-compose.yml
 echo "After reboot enter the command "docker-compose up" and press enter"
 #
