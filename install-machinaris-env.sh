@@ -35,6 +35,5 @@ echo "#Copy and Paste the docker compose data from https://www.machinaris.app/ h
 nano docker-compose.yml
 echo "After reboot enter the command "docker-compose up" and press enter"
 #
-echo "Rebooting...when the system comes up run "docker-compose up"."
 sleep 10
 sudo reboot
